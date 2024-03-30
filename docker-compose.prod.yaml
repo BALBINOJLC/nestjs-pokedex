@@ -16,7 +16,7 @@ services:
     environment:
       MONGODB: ${MONGODB}
       PORT: ${PORT}
-      DEFAULT_LIMIT: ${DEFAULT_LIMIT}yarn start
+      DEFAULT_LIMIT: ${DEFAULT_LIMIT}
     # volumes:
     #   - ./:/var/www/pokedex
 
